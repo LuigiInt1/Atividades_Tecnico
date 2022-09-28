@@ -6,13 +6,13 @@ playerDois=prompt("Player 2, Digite seu nome")
 for(i=5; i > 0; i--){
 
     alert(`${playerUm}, para pegar uma carta, aperte ENTER.`)
-    cartasUm = Math.floor(Math.random() * 12 + 1)
-    AcumuloUm += cartasUm
+        cartasUm = Math.floor(Math.random() * 12 + 1)
+        AcumuloUm += cartasUm
     alert(`A carta que você pegou é ${cartasUm}`)
     
     alert(`${playerDois}, para pegar uma carta, aperte ENTER.`)
-    cartasDois = Math.floor(Math.random() * 12 + 1)
-    AcumuloDois += cartasDois
+        cartasDois = Math.floor(Math.random() * 12 + 1)
+        AcumuloDois += cartasDois
     alert(`A carta que você pegou é ${cartasDois}`)
 }
 if(AcumuloUm>AcumuloDois){
@@ -24,4 +24,3 @@ if(AcumuloUm>AcumuloDois){
     alert(`O vencedor é ${playerDois}\n Total de cartas: ${AcumuloDois} `)
   
 }
-
